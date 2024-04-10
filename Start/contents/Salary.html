@@ -1,6 +1,15 @@
 <div>
 	<!-- <input type="file" id="excelFile" accept=".xlsx, .xls"/> -->
-	<input type="file" id="excelFile" onchange="excelExport(event)"/>
+	<!-- <input type="file" id="excelFile" onchange="excelExport(event)"/> -->
+	파일 선택 : <input type="file" id="excelFile" onchange="excelExport(event)"/>
+	<h1>Header 정보 보기</h1>
+	<div id="displayHeaders"></div>
+	<h1>JSON 형태로 보기</h1>
+	<div id="displayExcelJson"></div>
+	<h1>CSV 형태로 보기</h1>
+	<div id="displayExcelCsv"></div>
+	<h1>HTML 형태로 보기</h1>
+	<div id="displayExcelHtml"></div>
 
 	<!-- Excel CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" integrity="sha512-r22gChDnGvBylk90+2e/ycr3RVrDi8DIOkIGNhJlKfuyQM4tIRAI062MaV8sfjQKYVGjOBaZBOA87z+IhZE9DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
