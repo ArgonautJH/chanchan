@@ -1,10 +1,10 @@
 $(function () {
 
-	// // The Calender
-	// $('#calendar').datetimepicker({
-	// 	format: 'L',
-	// 	inline: true
-	// })
+	// The Calender
+	$('#calendar').datetimepicker({
+		format: 'L',
+		inline: true
+	})
 
 	//////////////////////////////////////////////////////////////////////////////////////////////
 	// Make the dashboard widgets sortable Using jquery UI
