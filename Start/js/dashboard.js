@@ -24,7 +24,7 @@ $(function () {
 	// $('#revenue-chart').get(0).getContext('2d');
   
 	var salesChartData = {
-	  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+	  labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월'],
 	  datasets: [
 		{
 		  label: 'Digital Goods',
